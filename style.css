@@ -1,0 +1,172 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+p,
+h2,
+h3 {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: local("OpenSansRegular"), url("../fonts/OpenSansRegular.woff2") format("woff2"),
+        url("../fonts/OpenSansRegular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: local("OpenSansBold"), url("../fonts/OpenSansBold.woff2") format("woff2"),
+        url("../fonts/OpenSansBold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    min-width: 320px;
+    font-family: 'OpenSans', sans-serif;
+    background-color: #e5e5e5;
+}
+
+/* glob */
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+
+}
+
+.container {
+    width: 1470px;
+    padding: 0 60px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/* =========================  */
+.howItWorks {
+    padding-top: 60px;
+    background-color: #FFF6ED;
+}
+
+.title2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    color: #000000;
+    text-align: center;
+}
+
+.listHow {
+    padding: 40px 0;
+    justify-content: space-between;
+}
+
+.itemHow {
+    max-width: 375px;
+}
+
+.imgHow {
+    display: block;
+    width: 100%;
+    margin-bottom: 21px;
+}
+
+.title3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+    margin-bottom: 6px;
+}
+
+.colortext {
+    color: #FF7A00;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.integ {
+    padding: 60px 0;
+    background-color: #ffffff;
+}
+
+.container-integ {
+    justify-content: space-between;
+}
+
+.integ-text {
+    max-width: 592px;
+    z-index: 2;
+}
+
+.title2Int {
+    text-align: left;
+    margin-bottom: 11px;
+}
+
+.integ-logo {
+    position: relative;
+    width: 550px;
+}
+
+.semicircle {
+    position: absolute;
+    top: -36px;
+    left: -112px;
+    z-index: 1;
+}
+
+.imgInt {
+    display: block;
+}
+
+.logolist1 {
+    padding: 30px 0;
+    justify-content: space-between;
+}
+
+.logolist2 {
+    justify-content: space-around;
+}
+
+.logoItem {
+    z-index: 2;
+}
